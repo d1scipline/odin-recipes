@@ -12,26 +12,36 @@ h1, h2 {
 
 h1 {
     font-size: 48px;
+    padding: 12px;
+    margin-top: 0;
 }
 
 h2 {
     font-size: 36px;
+    padding: 8px;
 }
 
 ul, ol {
-    padding-left: 0;
+    padding-left: auto;
     list-style-position: inside;
+    margin: 12px auto;
+    text-align: left;
+    display: table;
   }
+
+
   
 img {
     width: 600px;
     height: auto;
+    border: 10px solid bisque;
 }
 
 a {
     text-decoration: none;
     color: green;
     font-size: 28px;
+    padding: 8px;
 }
 
 .home {
